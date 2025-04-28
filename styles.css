@@ -1,52 +1,88 @@
-/* Reset some default browser styles */
+/* Import a coding font */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+/* Reset */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  /* Base styles */
-  bbody {
-    font-family: 'Poppins', sans-serif;
-    background-color: #ffffff;
-    color: #555;
-    padding: 40px;
-  }
-  
-  /* Link styles */
-  a {
-    color: #1e90ff;
-  }
-  
-  a:hover {
-    color: #3742fa;
-  }  
-  
-  /* Header */
-  header {
-    background-color: #b775d6;
-    color: white;
-    padding: 30px 0;
-    text-align: center;
-  }
-  
-  /* Navigation (if you want later) */
-  nav {
-    margin-top: 20px;
-    text-align: center;
-  }
-  
-  /* Main content */
-  main {
-    margin: 20px auto;
-    max-width: 800px;
-  }
-  
-  /* Footer */
-  footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    margin-top: 40px;
-  }  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body background: purple wisteria gradient */
+body {
+  font-family: 'Fira Code', monospace;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #c7b8ea, #e0c3fc);
+  color: #f4f4f4;
+  padding: 40px;
+}
+
+/* Header */
+header {
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 20px;
+  padding: 30px;
+  text-align: center;
+  margin-bottom: 40px;
+  backdrop-filter: blur(10px);
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+header p {
+  font-size: 1.2em;
+  color: #ddd;
+}
+
+/* Main Content */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 20px;
+  backdrop-filter: blur(8px);
+}
+
+/* Section Titles */
+section h2 {
+  font-size: 2em;
+  margin-bottom: 15px;
+  color: #fafafa;
+}
+
+/* Paragraphs */
+p, li {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+}
+
+/* Links */
+a {
+  color: #d4bfff;
+  text-decoration: none;
+  border-bottom: 1px dotted #d4bfff;
+  transition: color 0.3s, border-bottom 0.3s;
+}
+
+a:hover {
+  color: #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 60px;
+  color: #bbb;
+  font-size: 0.9em;
+}
+
+/* Smooth transitions */
+body, header, main, footer, a {
+  transition: all 0.3s ease-in-out;
+}
