@@ -6,12 +6,21 @@
   }
   
   /* Base styles */
-  body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f0f0f0;
-    color: #333;
-    padding: 20px;
+  bbody {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+    color: #555;
+    padding: 40px;
   }
+  
+  /* Link styles */
+  a {
+    color: #1e90ff;
+  }
+  
+  a:hover {
+    color: #3742fa;
+  }  
   
   /* Header */
   header {
