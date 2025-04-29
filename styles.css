@@ -11,7 +11,6 @@
 /* Body background: purple wisteria gradient */
 body {
     font-family: 'Manrope', sans-serif;
-    letter-spacing: 0.5px;
     min-height: 100vh;
     background: linear-gradient(135deg, #c7b8ea, #e0c3fc);
     color: #f4f4f4;
