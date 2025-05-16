@@ -14,7 +14,7 @@ body {
     letter-spacing: 0.5px;
     min-height: 100vh;
     background: linear-gradient(135deg, #ffffff, #ffffff);
-    color: #f4f4f4;
+    color: #000000;
     padding: 40px;
   }
 
@@ -36,7 +36,7 @@ header h1 {
 
 header p {
   font-size: 1.2em;
-  color: #ddd;
+  color: #000000;
 }
 
 /* Main Content */
@@ -64,9 +64,9 @@ p, li {
 
 /* Links */
 a {
-  color: #d4bfff;
+  color: #ffffff;
   text-decoration: none;
-  border-bottom: 1px dotted #d4bfff;
+  border-bottom: 1px dotted #ffffff;
   transition: color 0.3s, border-bottom 0.3s;
 }
 
