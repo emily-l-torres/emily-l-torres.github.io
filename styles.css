@@ -87,3 +87,15 @@ footer {
 body, header, main, footer, a {
   transition: all 0.3s ease-in-out;
 }
+
+section#hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;      /* centers horizontally */
+  justify-content: center;  /* centers vertically */
+  text-align: center;       /* centers inline text */
+}
+
+.hero-subtitle {
+  justify-content: center;  /* centers the pills */
+}
