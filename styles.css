@@ -19,12 +19,18 @@ body {
 
 /* Header */
 header {
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 20px;
-  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   text-align: center;
-  margin-bottom: 40px;
-  backdrop-filter: blur(10px);
+}
+
+.hero-subtitle {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
 }
 
 header h1 {
@@ -86,16 +92,4 @@ footer {
 /* Smooth transitions */
 body, header, main, footer, a {
   transition: all 0.3s ease-in-out;
-}
-
-section#hero {
-  display: flex;
-  flex-direction: column;
-  align-items: center;      /* centers horizontally */
-  justify-content: center;  /* centers vertically */
-  text-align: center;       /* centers inline text */
-}
-
-.hero-subtitle {
-  justify-content: center;  /* centers the pills */
 }
